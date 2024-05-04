@@ -1,0 +1,1 @@
+select * from {{ source('DBT', 'src_chicago_taxi_trips') }}

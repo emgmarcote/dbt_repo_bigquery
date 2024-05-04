@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: DBT 
+    database: test-egm  
+    schema: DBT
+    tables:
+      - name: src_chicago_taxi_trips
+      - name: src_chicago_crimenes

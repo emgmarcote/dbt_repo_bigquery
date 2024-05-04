@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: dim_taxis
+    description: 'Es la dimension de taxis'
+    columns:
+      - name: taxi_id
+        tests:
+          - unique
+          - not_null
+      - name: taxi_desc
+        description: 'Cuando no llega valor de origen, se pone No Documentado'
