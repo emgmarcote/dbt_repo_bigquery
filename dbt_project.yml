@@ -32,5 +32,5 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   mi_dbt_big_project:
     # Config indicated by + and applies to all files under models/example/
-    example:
+    chicago:
       +materialized: view
