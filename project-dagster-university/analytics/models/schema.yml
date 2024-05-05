@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_taxis
-    description: 'Es la dimension de taxis'
+    description: '{{ doc("table_dim_taxis")}}'
     columns:
       - name: taxi_id
         tests:

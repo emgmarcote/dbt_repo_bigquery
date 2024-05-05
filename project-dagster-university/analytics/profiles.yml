@@ -1,0 +1,13 @@
+mi_dbt_big_project: # this needs to match the profile in your dbt_project.yml file
+    target: dev
+    outputs:
+        dev:
+            type: bigquery
+            method: service-account
+            keyfile: C:\Users\EvaGM\Documents\Proyectos\BigQuery\Seguridad\test-egm-777cf5297d79.json # replace this with the full path to your keyfile
+            project: test-egm # Replace this with your project id
+            dataset: DBT # Replace this with dbt_your_name, e.g. dbt_bilbo
+            threads: 1
+            timeout_seconds: 300
+            location: europe-west9
+            priority: interactive

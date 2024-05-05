@@ -1,0 +1,6 @@
+.env
+project-dagster-university\data
+target/
+dbt_packages/
+logs/
+**/tmp*/
